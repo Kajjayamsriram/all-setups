@@ -12,3 +12,9 @@ su - sonar
 #run this on server manually
 #sh /opt/sonarqube-8.9.6.50800/bin/linux/sonar.sh start
 #echo "user=admin & password=admin"
+
+
+sonarQube container-
+sudo -i
+apt install docker.io -y
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
